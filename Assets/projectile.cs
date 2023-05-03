@@ -25,7 +25,8 @@ public class projectile : MonoBehaviour
     public void FireProjectile(Ray shootRay)
     {
         this.shootDirection = shootRay.direction;
-        this.transform.position = shootRay.origin; 
+        this.transform.position = shootRay.origin;
+        rotateInShootDirection();
     }
 
     void OnCollisionEnter (Collision collision)
