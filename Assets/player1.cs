@@ -9,7 +9,6 @@ public class player1 : MonoBehaviour
 
     void Start()
     {
-        Debug.log("123"); 
     }
   
     // Update is called once per frame
