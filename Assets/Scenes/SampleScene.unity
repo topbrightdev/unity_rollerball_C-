@@ -121,26 +121,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &127311166 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 396963985659032840, guid: 7f50fa01b731f8c47adcf014f492f18b,
-    type: 3}
-  m_PrefabInstance: {fileID: 3776693265619196911}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &127311171
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127311166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56a460339c5a8f14aa37d71a12a8c9b0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.2
-  damage: 1
 --- !u!1 &212647214
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,6 +463,7 @@ GameObject:
   - component: {fileID: 583719512}
   - component: {fileID: 583719511}
   - component: {fileID: 583719517}
+  - component: {fileID: 583719518}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -606,6 +587,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
+--- !u!114 &583719518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583719510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 518c0fd487cc8f5459f50b458603dfa9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 582247324351055204, guid: 7f50fa01b731f8c47adcf014f492f18b,
+    type: 3}
+  mask:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
