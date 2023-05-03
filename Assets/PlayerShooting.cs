@@ -26,5 +26,6 @@ public class PlayerShooting : MonoBehaviour
         Physics.IgnoreCollision(GetComponent<Collider>(), projectile.GetComponent<Collider>());
         projectile.FireProjectile(shootRay);
         Debug.Log("projectile", projectile); 
+        Debug.Log("projectile", projectile);
     }
 }
